@@ -38,11 +38,12 @@ markdown:    kramdown
 excerpt_separator: "\n\n"
 #incremental: false # Github Overide's this to false
 
+# Commenting out because we use github pages.
 # Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
+# detach:  false
+# port:    4000
+# host:    127.0.0.1
+# baseurl: "" # does not include hostname
 
 # Outputting
 permalink:     date
