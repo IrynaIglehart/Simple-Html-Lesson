@@ -1,5 +1,6 @@
 ---
 layout: default
+title: I'm hungry
 ---
 
 <h1>I want to eat the good food</h1>
