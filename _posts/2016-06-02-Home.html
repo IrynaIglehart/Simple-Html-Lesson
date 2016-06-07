@@ -4,7 +4,6 @@ title: Home
 ---
 
 <ul>
-  {% for post in site.posts %}
     <li>
         {% if page.url == post.url %}
       <a href="{{ site.github.url }}{{ post.url }}" class="active">{{ post.title }}</a>
@@ -12,5 +11,4 @@ title: Home
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
     </li>
-  {% endfor %}
 </ul>
