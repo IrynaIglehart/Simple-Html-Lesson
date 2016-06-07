@@ -51,7 +51,7 @@ ul {
 }
 
 /* Styles for the footer navigation */
-.site-navf {
+/*.site-navf {
   border-bottom: 1px solid black;
   font: 1.2em "Arial", sans-serif;
 }
@@ -60,7 +60,7 @@ ul {
   content: "";
   display: block;
   clear: both;
-}
+}*/
 
 .site-navf ul {
   padding: 0px;
