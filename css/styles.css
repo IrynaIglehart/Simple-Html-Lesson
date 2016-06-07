@@ -74,14 +74,14 @@ ul {
   list-style-type: none;
 }
 
-.site-navf a {
+/*.site-navf a {
   background-color: #B8C8E7;
   border-right: 1px solid #58595B;
   display: block;
   text-decoration: none;
   padding: 0px 20px;
   transition: 150ms background-color;
-}
+}*/
 
 /*.site-navf a.active {
   background-color: #748FC4;
