@@ -52,7 +52,7 @@ ul {
 
 /* Styles for the footer navigation */
 .site-navf {
-  /*border-bottom: 1px solid black;*/
+  border-top: 1px solid black;
   font: 0.8em "Arial", sans-serif;
 }
 
