@@ -4,11 +4,14 @@ layout: default
 
 <h1>Welcome to my blog</h1>
 
-<h2>A few of my favourite things</h2>
-
-<ol>
-  <li>Hubby</li>
-  <li>Buttons</li>
-  <li>Kittens</li>
-  <li>Gumdrops</li>
-</ol>
+<ul>
+  {% for post in site.posts reversed %}
+    <li>
+        {% if page.url == post.url %}
+      <a href="{{ site.github.url }}{{ post.url }}" class="active">{{ post.title }}</a>
+        {% else %}
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
+    </li>
+  {% endfor %}
+</ul>
