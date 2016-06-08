@@ -51,30 +51,30 @@ ul {
 }
 
 /* Styles for the footer navigation */
-.site-navf {
+.site-nav-footer {
   border-top: 1px solid black;
   font: 0.8em "Arial", sans-serif;
 }
 
-.site-navf::after {
+.site-nav-footer::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.site-navf ul {
+.site-nav-footer ul {
   padding: 0px;
   margin: 0px;
 }
 
-.site-navf li {
+.site-nav-footer li {
   float: left;
   height: 40px;
   line-height: 40px;
   list-style-type: none;
 }
 
-.site-navf a {
+.site-nav-footer a {
   /*background-color: #B8C8E7;
   border-right: 1px solid #58595B;*/
   display: block;
@@ -83,10 +83,10 @@ ul {
   /*transition: 150ms background-color;*/
 }
 
-/*.site-navf a.active {
+/*.site-nav-footer a.active {
   background-color: #748FC4;
 }
 
-.site-navf a:hover {
+.site-nav-footer a:hover {
   background-color: #88A9E7;
 }*/
