@@ -1,54 +1,23 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
 
-body {
-  background-color: #eee;
-  margin: 0;
-  padding: 0;
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
 }
 
-ul {
-
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-/* Styles for the site navigation */
-.site-nav {
-  border-bottom: 1px solid black;
-  font: 1.2em "Arial", sans-serif;
+code {
+  font-size: 80%;
 }
 
-.site-nav::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.site-nav ul {
-  padding: 0px;
-  margin: 0px;
-}
-
-.site-nav li {
-  float: left;
-  height: 40px;
-  line-height: 40px;
-  list-style-type: none;
-}
-
-.site-nav a {
-  background-color: #B8C8E7;
-  border-right: 1px solid #58595B;
-  display: block;
-  text-decoration: none;
-  padding: 0px 20px;
-  transition: 150ms background-color;
-}
-
-.site-nav a.active {
-  background-color: #748FC4;
-}
-
-.site-nav a:hover {
-  background-color: #88A9E7;
-}
 
 /* Sticky footer styles
 -------------------------------------------------- */
