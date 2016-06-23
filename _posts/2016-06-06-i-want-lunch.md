@@ -1,11 +1,7 @@
 ---
 layout: default
-title: I'm hungry
+title: I want to eat the good food - cuz, I'm hungry
 ---
-
-<h1>I want to eat the good food</h1>
-
-<p>very hungry</p>
 
 <ul>
   <li>Food</li>
