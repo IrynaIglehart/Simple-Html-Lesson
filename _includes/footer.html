@@ -1,16 +1,7 @@
   </body>
 </html>
-<div class="site-nav-footer">
-  <ul>
-    <li><a href="{{ site.github.url }}/index.html">Home</a></li>
-    {% for post in site.posts reversed %}
-      <li>
-        {% if page.url == post.url %}
-          <a href="{{ site.github.url }}{{ post.url }}" class="active">{{ post.title }}</a>
-        {% else %}
-          <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
