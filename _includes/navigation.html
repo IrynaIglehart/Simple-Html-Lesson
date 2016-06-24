@@ -12,10 +12,13 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
+          {% if page.url == "/index.html" %}
+            <li class="active"><a href="{{ site.github.url }}/index.html">Home</a></li>
+          {% else %}
             <li><a href="{{ site.github.url }}/index.html">Home</a></li>
-            {{page.url}}
+          {% endif %}
             {% for post in site.posts reversed %}
-              {% if page.url == post.url or page.url == "/index.html" %}
+              {% if page.url == post.url %}
                 <li class="active"><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></li>
               {% else %}
                 <li><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></li>
